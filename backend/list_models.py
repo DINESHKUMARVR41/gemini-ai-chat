@@ -7,4 +7,4 @@ client = genai.Client(api_key="AIzaSyBv4-d7_WjWcp2krsns2mGcPvNsM2fPAAY")  # Repl
 models = client.models.list()
 
 for m in models:
-    print(m.name)  # Only print the name
+    print(m.name, m.available_methods)
