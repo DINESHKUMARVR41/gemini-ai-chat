@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from google import genai
 
 # 🔥 TEMPORARY: put your Gemini API key here directly
-GEMINI_API_KEY = "AIzaSyBv4-d7_WjWcp2krsns2mGcPvNsM2fPAAY"
+GEMINI_API_KEY = ""
 
 # Create Gemini client
 client = genai.Client(api_key=GEMINI_API_KEY)
